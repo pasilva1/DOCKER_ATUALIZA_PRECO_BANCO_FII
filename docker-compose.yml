@@ -1,0 +1,9 @@
+version: "3.9"
+
+services:
+  atualiza_preco_banco_fii:
+    build: .
+    container_name: atualiza_preco_banco_fii
+    restart: always
+    environment:
+      TZ: America/Recife
