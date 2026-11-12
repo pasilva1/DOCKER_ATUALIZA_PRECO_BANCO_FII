@@ -102,8 +102,8 @@ if __name__ == "__main__":
         atualizar_precos,
         trigger=CronTrigger(
             day_of_week="mon,tue,wed,thu,fri",
-            hour=10,
-            minute=55
+            hour=11,
+            minute=13
         ),
         id="atualiza_preco_banco_fii",
         max_instances=1,
